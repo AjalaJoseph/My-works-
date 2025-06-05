@@ -1,0 +1,142 @@
+.img-1{
+    display: none;
+    position: absolute;
+    
+}
+body{
+    background-color:hsl(227, 75%, 14%) ;
+    font-family: sans-serif;
+}
+.content-1{
+    background-color:hsl(226, 11%, 37%) ;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.text-1{
+    color: white;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+}
+.text{
+    color:white;
+}
+.content-12{
+    background-color:hsl(226, 11%, 29%);
+    border: 0px solid hsl(226, 25%, 17%);
+    border-radius: 5px;
+    position: relative;
+}
+ .custom-margi{
+        margin-left: 30%;
+    }
+
+
+ @media(min-width:992px){
+    .nav-1{
+        margin-left: auto;
+    }
+    .custom{
+        margin-left: 80%;
+    }
+   
+    .bord-1{
+        margin-left: 80%;
+    }
+    .img-1{
+       top: 1px;
+       left: 10px;
+    }
+ }
+ @media(min-width:768px) and (max-width:991.98px){
+    .nav-1{
+        display: flex;
+        flex-direction: row;
+ }
+ .custom{
+        margin-left: 60%;
+    }
+}
+ 
+ @media(max-width:576px){
+    .nav-2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-1{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .text-1{
+        font-size: 45px;
+    }
+    .bord-1{
+        margin-left: 80%;
+    }
+    .custom{
+        margin-left: 27%;
+    }
+    .img-1{
+        top:1px;
+        left: 5px;
+    }
+ }
+ .font{
+    font-size: 12px;
+    color: hsl(0, 0%, 78%);
+ }
+ .bord-1{
+     border: 1px solid hsl(226, 11%, 37%) ;
+     background-color: hsl(226, 11%, 37%);
+     border-radius: 50px;
+     width: 45px;
+     position: relative;
+     padding: 10px
+ }
+ .bord{
+    top: 2px;
+    left: 1px;
+    background-color: white;
+    border:1px solid white ;
+    border-radius: 10px;    
+    cursor: pointer;
+    padding: px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+ }
+ #img-1:active{
+    width: 20px;
+    height: 25px;
+    opacity: 0.5;
+ }
+ .text-1{
+    color: white;
+ }
+ .button{
+    border-radius: 18px;
+    border:1px solid hsl(226, 11%, 37%) ;
+    padding: 4px;
+    color: white;
+    padding-inline: 10px;
+    margin-left: 10px;
+    
+    background-color: inherit;
+    
+ }
+ .list-1, .list-2, .list-3{
+    border: 1px solid inherit;
+    background-color:hsl(225, 23%, 24%);
+    border-radius: 15px;
+    padding-inline: 10px;
+ }
+ .back-color{
+    background-color: hsl(225, 23%, 24%);
+    border: 1px solid black;
+    border-radius: 15px;
+ }
+ 
